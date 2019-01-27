@@ -45,11 +45,11 @@
                 <div id="commitmentbox">
                     <h2 style="color: white;">How committed should we be to reducing greenhouse gases?</h2>
                     <br />
-                    <a class="button" onclick="resetTimeline()">Climate change is a hoax; our commitment is irrelevant</a>
+                    <a class="button" onclick="decreaseCommitment(); resetTimeline()">Climate change is a hoax; our commitment is irrelevant</a>
                     <br />
-                    <a class="button" onclick="resetTimeline()">Our commitment is fine as it is</a>
+                    <a class="button" onclick="standardCommitment(); resetTimeline()">Our commitment is fine as it is</a>
                     <br/>
-                    <a class="button" onclick="resetTimeline()">We should be more committed to sustainable practices!</a>
+                    <a class="button" onclick="increaseCommitment(); resetTimeline()">We should be more committed to sustainable practices!</a>
                 </div>
         </div>
     </div>
@@ -60,11 +60,6 @@
   <script>
     circles_data = {{circles|tojson|safe}}
     circles = addCircles(circles_data);
-    for (var i=0; i < circles_data.length; i++) {
-      console.log(circles_data[i]["alt"])
-      if (parseFloat(circles_data[i]["alt"]) < 100) {
-        circleFlood(circles[i]);
-      }
-    }
+    checkFloods(circles);
   </script>
 </html>

@@ -32,6 +32,18 @@ addCircles = (circles) => {
   return circles
 }
 
+checkFloods = (circles) => {
+  console.log('checking for floods');
+  for (var i=0; i < circles_data.length; i++) {
+    //console.log(circles_data[i]["alt"])
+    if (parseFloat(circles_data[i]["alt"]) < 100) {
+      circleFlood(circles[i]);
+    } else {
+      circleDont(circles[i]);
+    }
+  }
+}
+
 circleAppear = (circle) => {
   circle.updateSymbol({
     'polygonOpacity' : 0.4
