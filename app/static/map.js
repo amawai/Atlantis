@@ -36,14 +36,14 @@ checkFloods = (circles__data, circles) => {
   let displacedPersons = 0;
   for (var i=0; i < circles__data.length; i++) {
     //console.log(circles_data[i]["alt"])
-    if (parseFloat(circles__data[i]["alt"]) < 100) {
+    if (parseFloat(circles__data[i]["alt"]) < 0) {
       circleFlood(circles[i]);
       displacedPersons += circles__data[i]["pop"];
     } else {
       circleDont(circles[i]);
     }
   }
-  $("#displacedppl").text(displacedPersons);
+  $("#displacedppl").text(displacedPersons.toLocaleString());
 }
 
 circleAppear = (circle) => {
@@ -65,14 +65,6 @@ circleDont = (circle) => {
   circle.updateSymbol({
     'polygonFill' : dontColor
   });
-}
-
-randomCircle = () => {
-  return {
-    "lng":Math.random()*180 - 90,
-    "lat":Math.random()*180 - 90,
-    "size":Math.random()*4,
-  }
 }
 
 

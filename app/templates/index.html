@@ -28,9 +28,9 @@
     </div>
     <div id="timeline" class="slidecontainer">
         <h2 style="color: white;">Time</h2>
-        <input type="range" min="0" max="400" value="1" class="slider" id="myRange" name="myRange" onchange="updateYear()" onchange="updateYear()">
+        <input type="range" min="0" max="200" value="1" class="slider" id="myRange" name="myRange" onchange="updateYear()" onchange="updateYear()">
         <label for="myRange" style="color: white">
-          Current Year: <span id="currentYear">1900</span>
+          Current Year: <span id="currentYear">2019</span>
         </lable>
     </div>
     <div style="height: 100%; width: 100%; position: relative;">
@@ -60,6 +60,5 @@
   <script>
     circles_data = {{circles|tojson|safe}}
     circles = addCircles(circles_data);
-    checkFloods(circles_data, circles);
   </script>
 </html>
