@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tryna scroll</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
+    <style>
+      html, body, #map {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="https://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+    <link rel="stylesheet" href="./css/slider.css" />
+    <link rel="stylesheet" href="./css/blocks.css" />
+    <link href="./css/style.css" rel="stylesheet">
+	<link href="./css/scale.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./css/ScrollTrigger.min.js"></script>
+  </head>
+  <body style="overflow-x: hidden;">
+    <div id="welcome" class="block infoblocks">
+        <div style="padding-top: 50px;">
+            <h1 data-scroll="toggle(.fromTopIn, .fromTopOut)">Welcome!</h1>
+            <h2 style="color:white;" data-scroll="toggle(.fromTopIn, .fromTopOut)"
+            data-scroll-showCallback="hideSlider">Something something about sustainability</h2>
+        </div>
+    </div>
+    <!-- <div id="showslider" style="position: relative; color: red;" data-scroll-showCallback="displaySlider">
+        <p>something invisilbe</p>
+    </div> -->
+    
+    <div id="timeline" class="slidecontainer">
+        <p>Custom range slider:</p>
+        <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+    </div>
+    
+    <div id="map" class="block" style="overflow-y: hidden; height: 100%; visibility: visible !important;" 
+        data-scroll data-scroll-showCallback="mapScroll"></div>
+    <div id="goodbye" class="block infoblocks">
+        <div style="padding-top: 50px;">
+                <h1 data-scroll="toggle(.scaleUpIn, .scaleUpOut)" data-scroll-showCallback="hideSlider">goodbye!</h1>
+                <h2 style="color: white;" data-scroll="toggle(.scaleUpIn, .scaleUpOut)">Something something about every change counts</h2>
+        </div>
+    </div>
+    <script src="ScrollTrigger.min.js"></script>
+    <script src="./js/scrollTrigger.js"></script>
+    <!-- TODO: REMOVE THIS, JUST A PLACEHOLDER FOR NOW include cartodb.js library -->
+    <script src="https://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+    <script>
+      function main() {
+        var map = new L.Map('map', {
+          zoomControl: false,
+          center: [43, 0],
+          zoom: 3
+        });
+
+        map.dragging.disable();
+        map.touchZoom.disable();
+        map.doubleClickZoom.disable();
+        map.scrollWheelZoom.disable();
+
+        L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.png', {
+          attribution: 'Stamen'
+        }).addTo(map);
+
+        cartodb.createLayer(map, 'http://documentation.cartodb.com/api/v2/viz/2b13c956-e7c1-11e2-806b-5404a6a683d5/viz.json')
+            .addTo(map)
+         .on('done', function(layer) {
+
+          layer.setInteraction(true);
+
+          layer.on('featureOver', function(e, latlng, pos, data) {
+            cartodb.log.log(e, latlng, pos, data);
+          });
+
+          layer.on('error', function(err) {
+            cartodb.log.log('error: ' + err);
+          });
+        }).on('error', function() {
+          cartodb.log.log("some error occurred");
+        });
+      }
+
+      // you could use $(window).load(main);
+      window.onload = main;
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,500,700" rel="stylesheet">
+  </body>
+</html>
+
+      
