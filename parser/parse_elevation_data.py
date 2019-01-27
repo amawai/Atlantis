@@ -1,5 +1,6 @@
 import re
-import json
+from bs4 import BeautifulSoup
+import requests
 
 def parse_data(filename):
     with open(filename, 'r') as file:
@@ -26,8 +27,18 @@ def parse_data(filename):
                     data.append(string.group(7))
                     list.append(data)
 
-        print(list)
+        return list
+
+def get_populations(list):
+    for i in list:
+        print(i)
+        if not i[5].strip():
+            url = "https://en.wikipedia.org/wiki/" + re.sub(' ','_',i[1].strip())
+            r = requests.get(url)
+            data = r.text
+            soup = BeautifulSoup(data,'html.parser')
+            vcard = soup.findAll("table", {"class": "infobox geography vcard"})[0]
+            import ipdb; ipdb.set_trace()
 
 
-
-parse_data("./Elevations.txt")
+get_populations(parse_data("./Elevations.txt"))
