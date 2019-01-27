@@ -60,5 +60,15 @@
   <script>
     circles_data = {{circles|tojson|safe}}
     circles = addCircles(circles_data);
+    function changeView() {
+      map.animateTo({
+        center: [20,-10],
+        zoom: 3,
+        pitch: 20,
+      }, {
+        duration: 2500
+      });
+    }
+    changeView();
   </script>
 </html>
