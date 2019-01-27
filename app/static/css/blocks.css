@@ -24,8 +24,8 @@
     right: 0;
     top: 0;
     z-index: 100;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.44);
     width: 15.5%;
     height: 7.5%;
     position: absolute;
@@ -36,7 +36,7 @@
 }
 
 #timeline {
-    background-color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.44);
     position: fixed;
     bottom: 0;
     left: 0;
