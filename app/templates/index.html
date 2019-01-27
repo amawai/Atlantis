@@ -2,15 +2,56 @@
 <html>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Map - Display a map</title>
+  <title>Atlantis</title>
+  <head>
+      <link rel="stylesheet" href="https://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+      <link rel="stylesheet" href="/static/css/slider.css" rel="stylesheet"/>
+      <link rel="stylesheet" href="/static/css/blocks.css" rel="stylesheet"/>
+      <link href="/static/css/style.css" rel="stylesheet">
+      <link href="/static/css/scale.css" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="/static/css/ScrollTrigger.min.js"></script>
+  </head>
   <style type="text/css">
     html,body{margin:0px;height:100%;width:100%}
-    .container{width:100%;height:100%}
+    .container{width:100%;height:100%; overflow-y:hidden; visibility: visible !important;}
   </style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maptalks/dist/maptalks.css">
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/maptalks/dist/maptalks.min.js"></script>
   <body>
-    <div id="map" class="container"></div>
+    <div id="welcome" class="block infoblocks">
+        <div style="padding-top: 50px;">
+            <h1 data-scroll="toggle(.fromTopIn, .fromTopOut)">Atlantis</h1>
+            <h2 style="color:white;" data-scroll="toggle(.fromTopIn, .fromTopOut)"
+            data-scroll-showCallback="hideSlider">Sea how our choices affect the world as we know it</h2>
+        </div>
+    </div>
+    <div id="timeline" class="slidecontainer">
+        <h2 style="color: black;">Time</h2>
+        <input type="range" min="0" max="400" value="1" class="slider" id="myRange" name="myRange" onchange="updateYear()" onchange="updateYear()">
+        <label for="myRange" style="color: black">
+          Current Year: <span id="currentYear">1900</span>
+        </lable>
+    </div>
+    <div style="height: 100%; width: 100%; position: relative;">
+      <div class="mapinfo">
+          Total People Displaced: <br/><span>0</span>
+      </div>
+      <div id="map" class="container" data-scroll data-scroll-showCallback="mapScroll"></div>
+    </div>
+    <div id="goodbye" class="block infoblocks">
+        <div style="padding-top: 50px;">
+                <h1 data-scroll data-scroll-showCallback="hideSlider">Every change counts!</h1>
+                <div id="commitmentbox">
+                    <h2 style="color: white;">How committed should we be to reducing greenhouse gases?</h2>
+                    <h3>Climate change is a hoax; our commitment is irrelevant</h3>
+                    <h3>Our commitment is fine as it is</h3>
+                    <h3>We should be more committed to sustainable practices!</h3>
+                </div>
+        </div>
+    </div>
+    <script src="/static/js/scrollTrigger.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,500,700" rel="stylesheet">
   </body>
   <script type="text/javascript" src="{{ url_for('static', filename='map.js') }}"></script>
   <script>

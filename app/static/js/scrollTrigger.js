@@ -62,8 +62,16 @@ const scrollToGoodbye = () => {
     }, 200);
 }
 
+$("#myRange").on("input change", function() {
+    const currentTimeline = document.getElementById('myRange').value
+    updateYear(currentTimeline);
+});
+function updateYear (value) {
+    const year = parseInt(value) + STARTING_YEAR;
+    $('#currentYear').text(year);
+}
 // Binding the scrolling to the 
-$('#map').bind('mousewheel', function(e){
+$('#timeline').bind('mousewheel', function(e){
     const delta = e.originalEvent.deltaY;
     let timelineVal = parseInt(document.getElementById('myRange').value);
     if (delta < 0) {
@@ -72,9 +80,7 @@ $('#map').bind('mousewheel', function(e){
         document.getElementById('myRange').value = Math.min(timelineVal + 1, MAX_NUM);
     }
     const currentTimeline = document.getElementById('myRange').value
-    const convertedYear = parseInt(currentTimeline) + STARTING_YEAR;
-    console.log(convertedYear)
-    $('#currentYear').text(convertedYear);
+    updateYear(currentTimeline);
     if (currentTimeline == MAX_NUM || currentTimeline == MIN_NUM) {
         enableBodyScroll();
         hideSliderFunc();

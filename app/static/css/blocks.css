@@ -32,13 +32,12 @@
     border-radius: 3px;
     vertical-align: middle;
     padding: 5px;
-    margin-right: 1em;
+    margin: 1em;
 }
 
 #timeline {
     background-color: #ffffff;
     position: fixed;
-    border: 3px solid rgb(0, 22, 51);
     bottom: 0;
     left: 0;
     width: 100%;
