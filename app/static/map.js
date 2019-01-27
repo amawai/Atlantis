@@ -2,7 +2,7 @@ var map = new maptalks.Map('map', {
   center: [0,20],
   zoom: 2.5,
   baseLayer: new maptalks.TileLayer('base', {
-    urlTemplate: 'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
+    urlTemplate: 'http://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}.png',
     subdomains: ['a','b','c','d'],
     attribution: '&copy; <a href="http://osm.org">OpenStreetMap</a> contributors, &copy;'
   })
@@ -10,7 +10,7 @@ var map = new maptalks.Map('map', {
 map.config('draggable', true);
 map.config('zoomable', true);
 
-dontColor = '#3f3'
+dontColor = '#333'
 floodColor = '#f33'
 
 addCircles = (circles) => {
