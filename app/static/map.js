@@ -43,7 +43,7 @@ checkFloods = (circles__data, circles) => {
       circleDont(circles[i]);
     }
   }
-  $("#displacedppl").text(displacedPersons);
+  $("#displacedppl").text(displacedPersons.toLocaleString());
 }
 
 circleAppear = (circle) => {
