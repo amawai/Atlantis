@@ -13,40 +13,47 @@
       }
     </style>
     <link rel="stylesheet" href="https://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
-    <link rel="stylesheet" href="./css/slider.css" />
-    <link rel="stylesheet" href="./css/blocks.css" />
-    <link href="./css/style.css" rel="stylesheet">
-	<link href="./css/scale.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/slider.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/static/css/blocks.css" rel="stylesheet"/>
+    <link href="/static/css/style.css" rel="stylesheet">
+	  <link href="/static/css/scale.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="./css/ScrollTrigger.min.js"></script>
+    <script src="/static/css/ScrollTrigger.min.js"></script>
   </head>
   <body style="overflow-x: hidden;">
     <div id="welcome" class="block infoblocks">
         <div style="padding-top: 50px;">
-            <h1 data-scroll="toggle(.fromTopIn, .fromTopOut)">Welcome!</h1>
+            <h1 data-scroll="toggle(.fromTopIn, .fromTopOut)">Atlantis</h1>
             <h2 style="color:white;" data-scroll="toggle(.fromTopIn, .fromTopOut)"
             data-scroll-showCallback="hideSlider">Something something about sustainability</h2>
         </div>
-    </div>
-    <!-- <div id="showslider" style="position: relative; color: red;" data-scroll-showCallback="displaySlider">
-        <p>something invisilbe</p>
-    </div> -->
-    
-    <div id="timeline" class="slidecontainer">
-        <p>Custom range slider:</p>
-        <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
-    </div>
-    
-    <div id="map" class="block" style="overflow-y: hidden; height: 100%; visibility: visible !important;" 
-        data-scroll data-scroll-showCallback="mapScroll"></div>
-    <div id="goodbye" class="block infoblocks">
-        <div style="padding-top: 50px;">
-                <h1 data-scroll="toggle(.scaleUpIn, .scaleUpOut)" data-scroll-showCallback="hideSlider">goodbye!</h1>
-                <h2 style="color: white;" data-scroll="toggle(.scaleUpIn, .scaleUpOut)">Something something about every change counts</h2>
+        <div class="mapinfo">
+           Total Displaced: <br/><span>0</span>
         </div>
     </div>
-    <script src="ScrollTrigger.min.js"></script>
-    <script src="./js/scrollTrigger.js"></script>
+    <div id="timeline" class="slidecontainer">
+        <p style="color: black;">Timeline:</p>
+        <input type="range" min="0" max="400" value="1" class="slider" id="myRange" name="myRange">
+        <label for="myRange" style="color: black">
+          Current Year: <span id="currentYear"></span>
+        </lable>
+    </div>
+    <div id="map" class="block" style="overflow-y: hidden; height: 100%; visibility: visible !important;" 
+        data-scroll data-scroll-showCallback="mapScroll">
+    </div>
+    
+    <div id="goodbye" class="block infoblocks">
+        <div style="padding-top: 50px;">
+                <h1 data-scroll data-scroll-showCallback="hideSlider">Every change counts!</h1>
+                <div id="commitmentbox">
+                    <h2 style="color: white;">How committed should we be to reducing greenhouse gases?</h2>
+                    <h3>Climate change is a hoax; our commitment is irrelevant</h3>
+                    <h3>Our commitment is fine as it is</h3>
+                    <h3>We should be more committed to sustainable practices!</h3>
+                </div>
+        </div>
+    </div>
+    <script src="/static/js/scrollTrigger.js"></script>
     <!-- TODO: REMOVE THIS, JUST A PLACEHOLDER FOR NOW include cartodb.js library -->
     <script src="https://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
     <script>

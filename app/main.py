@@ -1,9 +1,9 @@
-from flask import Flask
+from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World from Flask"
+    return render_template('index2.html')
 
 if __name__ == "__main__":
     # Only for debugging while developing
