@@ -19,6 +19,7 @@ def index():
                     int(l[5].replace(" ","").replace(",",""))
                     )))/2.5
                 c["alt"] = int(l[6].split()[-1])
+                c["pop"] = int(l[5].replace(" ","").replace(",",""))
             except Exception as e:
                 print(e)
                 print(l)

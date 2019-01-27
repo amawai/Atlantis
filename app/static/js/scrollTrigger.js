@@ -3,26 +3,50 @@ const MIN_NUM = 0
 const STARTING_YEAR = 1900
 
 const STANDARD_COMMITMENT_RATE = 1;
-const INCREASED_COMMITMENT_RATE = 0.5;
-const DECREASED_COMMITMENT_RATE = 2;
+const INCREASED_COMMITMENT_RATE = 0.35;
+const DECREASED_COMMITMENT_RATE = 5;
 var commitmentRate = STANDARD_COMMITMENT_RATE;
 
 let currentYear = STARTING_YEAR;
 var enableTimescroll = false;
 
+let modified_circles_data = null;
+
+clone = (objects) => {
+    return JSON.parse(JSON.stringify(objects));
+}
+
+
+resetTimeline = () => {
+    modified_circles_data = clone(circles_data);
+    checkFloods(circles_data, circles)
+    document.getElementById('myRange').value = MIN_NUM;
+    updateYear(MIN_NUM);
+    $('html, body').animate({
+        scrollTop: $("#map").offset().top
+    }, 200, function() {
+        $("#timeline").removeClass( "hidden" )
+        //$("#timeline").addClass( "visible" )
+        $("body").css({overflow:"hidden"})
+    });
+}
+
 increaseCommitment = () => {
     console.log('increasing commitment')
     commitmentRate = INCREASED_COMMITMENT_RATE;
+    resetTimeline();
 }
 
 standardCommitment = () => {
     console.log('standardizing commitment')
     commitmentRate = STANDARD_COMMITMENT_RATE;
+    resetTimeline();
 }
 
 decreaseCommitment = () => {
     console.log('decreasing commitment')
     commitmentRate = DECREASED_COMMITMENT_RATE;
+    resetTimeline();
 }
 
 document.addEventListener('DOMContentLoaded', function(){
@@ -42,18 +66,6 @@ window.mapScroll = () => {
             $("body").css({overflow:"hidden"})
         });
     }
-}
-
-const resetTimeline = () => {
-    document.getElementById('myRange').value = MIN_NUM;
-    updateYear(MIN_NUM);
-    $('html, body').animate({
-        scrollTop: $("#map").offset().top
-    }, 200, function() {
-        $("#timeline").removeClass( "hidden" )
-        //$("#timeline").addClass( "visible" )
-        $("body").css({overflow:"hidden"})
-    });
 }
 
 window.displaySlider = function() {
@@ -99,17 +111,19 @@ function updateYear (value) {
 }
 
 function increaseAlt() {
-    for (var i=0; i < circles_data.length; i++) {
-      circles_data[i]["alt"] += 1 * commitmentRate;
+    modified_circles_data = modified_circles_data == null ? clone(circles_data) : modified_circles_data;
+    for (var i=0; i < modified_circles_data.length; i++) {
+        modified_circles_data[i]["alt"] += 1 * commitmentRate;
     }
-    checkFloods(circles);
+    checkFloods(modified_circles_data, circles);
 }
 
 function decreaseAlt() {
-    for (var i=0; i < circles_data.length; i++) {
-        circles_data[i]["alt"] -= 1 * commitmentRate;
+    modified_circles_data = modified_circles_data == null ? clone(circles_data) : modified_circles_data;
+    for (var i=0; i < modified_circles_data.length; i++) {
+        modified_circles_data[i]["alt"] -= 1 * commitmentRate;
     }
-    checkFloods(circles);
+    checkFloods(modified_circles_data, circles);
 }
 
 // Binding the scrolling to the timeline

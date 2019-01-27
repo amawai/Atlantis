@@ -32,16 +32,18 @@ addCircles = (circles) => {
   return circles
 }
 
-checkFloods = (circles) => {
-  console.log('checking for floods');
-  for (var i=0; i < circles_data.length; i++) {
+checkFloods = (circles__data, circles) => {
+  let displacedPersons = 0;
+  for (var i=0; i < circles__data.length; i++) {
     //console.log(circles_data[i]["alt"])
-    if (parseFloat(circles_data[i]["alt"]) < 100) {
+    if (parseFloat(circles__data[i]["alt"]) < 100) {
       circleFlood(circles[i]);
+      displacedPersons += circles__data[i]["pop"];
     } else {
       circleDont(circles[i]);
     }
   }
+  $("#displacedppl").text(displacedPersons);
 }
 
 circleAppear = (circle) => {
