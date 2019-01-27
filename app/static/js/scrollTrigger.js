@@ -24,7 +24,7 @@ resetTimeline = () => {
     updateYear(MIN_NUM);
     $('html, body').animate({
         scrollTop: $("#map").offset().top
-    }, 200, function() {
+    }, 1000, function() {
         $("#timeline").removeClass( "hidden" )
         //$("#timeline").addClass( "visible" )
         $("body").css({overflow:"hidden"})
@@ -60,7 +60,7 @@ window.mapScroll = () => {
     if (currentTimeline < MAX_NUM) {     
         $('html, body').animate({
             scrollTop: $("#map").offset().top
-        }, 200, function() {
+        }, 1000, function() {
             $("#timeline").removeClass( "hidden" )
             //$("#timeline").addClass( "visible" )
             $("body").css({overflow:"hidden"})
