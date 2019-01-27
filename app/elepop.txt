@@ -1,0 +1,205 @@
+﻿Albania|Tirana|Europe|N41.3317|E19.8172|557422|110
+Austria|Vienna|Europe|N48.2092|E16.3728|2600000|170
+Belarus|Minsk|Europe|N53.9678|E27.5766|7000|198
+Belgium|Brussels|Europe|N50.8371|E4.3676|2120000|13
+Bosnia and Herzegovina|Sarajevo|Europe|N43.8608|E18.4214|555210|577
+Bulgaria|Sofia|Europe|N42.7105|E23.3238|1,236,047|591
+Bulgaria|Plovdiv|Europe|N42.1483203|E24.7429926|341,567|164
+Bulgaria|Varna|Europe|N43.216667|E27.916667|314,539|10
+Croatia|Zagreb|Europe|N45.8150|E15.9785|792,324|130
+Czech Republic|Prague|Europe|N50.0878|E14.4205|2619490|244
+Denmark|Aarhus|Europe|N56.15|E10.22|261,560|10
+Denmark|Copenhagen|Europe|N55.6763|E12.5681|583,348|10
+Estonia|Tallinn|Europe|N59.4389|E24.7545|453033|37
+Finland|Helsinki|Europe|N60.1699|E24.9384|1488236|25
+France|Paris|Europe|N48.8567|E2.3510|2140526|34
+Germany|Berlin|Europe|N52.5235|E13.4115|6004857|34
+Germany|Munich|Europe|N48.1333|E11.5666|2606021|519
+Greece|Athens|Europe|N37.9792|E23.7166|3781274|153
+Hungary|Budapest|Europe|N47.4984|E19.0408|3303786|102
+Ireland|Dublin|Europe|N53.3441|W6.2675|51319|8
+Italy|Rome|Europe|N41.8955|E12.4823|4355725|14
+Georgia (country)|Georgia / Tbilisi|Europe|N41.7010|E44.7930|1114000|451
+Kosovo|Pristina|Europe|N42.6740|E21.1788|204725|652
+Latvia|Riga|Europe|N56.9465|E24.1049|1070201|8
+Lithuania|Vilnius|Europe|N54.6896|E25.2799|805367|124
+Moldova|Chisinau|Europe|N47.0167|E28.8497|820500|80
+Montenegro|Podgorica|Europe|N42.4602|E19.2595|185937|61
+Netherlands|Amsterdam|Europe|N52.3738|E4.8910|8116000|-2
+Norway|Oslo|Europe|N59.9138|E10.7387|1588457|12
+Poland|Warsaw|Europe|N52.2297|E21.0122|3100844|93
+Portugal|Lisbon|Europe|N38.7072|W9.1355|505526|15
+Republic of Macedonia|Skopje|Europe|N42.0024|E21.4361|544086|243
+Romania|Bucharest|Europe|N44.4479|E26.0979|2412530|70
+Russia|Moscow|Europe|N55.7558|E37.6176|11503501|124
+Russia|Ufa|Europe|N54.7340|E55.9471|1,121,429|165
+Serbia|Belgrade|Europe|N44.8048|E20.4781|1687132|116
+Slovakia|Bratislava|Europe|N48.2116|E17.1547|429564|131
+Slovenia|Ljubljana|Europe|N46.0514|E14.5060|537712|281
+Spain|Madrid|Europe|N40.4167|W3.7033|6675302|588
+Spain|Seville|Europe|N37.3772|W5.9869|1519639|7
+Sweden|Stockholm|Europe|N59.3328|E18.0645|2315612|15
+Switzerland|Bern|Europe|N46.9480|E7.4481|133798|513
+Ukraine|Kiev|Europe|N50.4422|E30.5367|12200|168
+Scotland (UK)|Edinburgh|Europe|N55.9518|W3.1834|492,680|47
+England (UK)|London|Europe|N51.5002|W0.1262|46482|14
+England (UK)|Manchester|Europe|N53.951|W2.1448|38233|38
+Afghanistan|Kabul|Asia|N34.5155|E69.1952|3,678,034|1807
+Armenia|Yerevan|Asia|N40.1596|E44.5090|1420000|1032
+Azerbaijan|Baku|Asia|N40.3953|E49.8822|4670740|30
+Bangladesh|Dhaka|Asia|N23.7106|E90.3978|20000000|3
+Burma (Myanmar)|Pyinmana|Asia|N19.7378|E96.2083|100000|77
+Cambodia|Phnom Penh|Asia|N11.5434|E104.8984|1501725|15
+China|Beijing|Asia|N39.9056|E116.3958|24000000|63
+China|Kunming|Asia|N25.04|E102.41|6,626,000|1892
+India|New Delhi|Asia|N28.6353|E77.2250|26454000|210
+India|Bangalore|Asia|N12.9833|E77.5833|10456000|920
+India|Hyderabad|Asia|N17.3850|E78.4867|7749334|542
+India|Shohratgarh|Asia|N27.23|E82.57|420,532|95
+India|Srinagar|Asia|N34.0837|E74.7973|1,192,792|1585
+Indonesia|Jakarta|Asia|S6.1862|E106.8063|30214303|3
+Iran|Tehran|Asia|N35.7117|E51.4070|15232564|1235
+Iran|Shiraz|Asia|N29.61031|E52.53113|1869001|1585
+Iran|Ahvaz|Asia|N31.31901|E48.6842|1260817|16
+Iraq|Baghdad|Asia|N33.3157|E44.3922|13500000|40
+Israel|Jerusalem|Asia|N31.7857|E35.2007|865,721|580
+Israel|Tel Aviv|Asia|N32.07|E34.78|432,892|5
+Japan|Tokyo|Asia|N35.6785|E139.6823|9,272,565|17
+Japan|Nagano|Asia|N36.6486|E138.1942|377,598|362
+Jordan|Amman|Asia|N34.11|E21.41|4007526|1094
+Kazakhstan|Astana|Asia|N51.1796|E71.4475|1200000|338
+Kuwait|Kuwait City|Asia|N29.3721|E47.9824|2400000|5
+Kyrgyzstan|Bishkek|Asia|N42.8679|E74.5984|958500|771
+Laos|Vientiane|Asia|N17.9689|E102.6137|820940|148
+Lebanon|Beirut|Asia|N33.8872|E35.5134|2200000|55
+Malaysia|Kuala Lumpur|Asia|N3.1502|E101.7077|7200000|60
+Mongolia|Ulan Bator|Asia|N47.9138|E106.9220|1372000|1284
+Nepal|Kathmandu|Asia|N27.7058|E85.3157|2500000|1298
+North Korea|Pyongyang|Asia|N39.0187|E125.7468|3222000|6
+Oman|Masqat|Asia|N23.6086|E58.5922|1720000|68
+Pakistan|Skardu|Asia|N35.1725|E75.3840|500000|2228
+Pakistan|Islamabad|Asia|N33.6751|E73.0946|991747|507
+Philippines|Baguio|Asia|N16.42|E120.60|345,366|1540
+Philippines|Manila|Asia|N14.5790|E120.9726|12,877,253|7
+Qatar|Doha|Asia|N25.2948|E51.5082|1685000|13
+Saudi Arabia|Riyadh|Asia|N24.6748|E46.6977|7676654|624
+Singapore|Singapore|Asia|N1.2894|E103.8500|5638700|0
+South Korea|Seoul|Asia|N37.5139|E126.9828|25600000|33
+Sri Lanka|Colombo|Asia|N6.9155|E79.8572|3684|4
+Syria|Damascus|Asia|N33.5158|E36.2939|1711000|691
+Taiwan|Kaohsiung|Asia|N22.6333|E120.2667|2555000|9
+Taiwan|Taipei|Asia|N25.0338|E121.5645|8605000|5
+Tajikistan|Dushanbe|Asia|N38.5737|E68.7738|1051200|789
+Thailand|Bangkok|Asia|N13.7573|E100.5020|14626225|1
+Tibet (CN)|Lhasa|Asia|N29.3900|E91.0700|223,001|3490
+Timor-Leste (East Timor)|Dili|Asia|S8.5662|E125.5880|234331|11
+Turkey (country)|Turkey / Ankara|Asia|N39.9439|E32.8560|5445000|938
+Turkmenistan|Ashgabat|Asia|N37.9509|E58.3794|1031992|215
+United Arab Emirates|Abu Dhabi|Asia|N24.4764|E54.3705|61000|13
+Uzbekistan|Tashkent|Asia|N41.3193|E69.2481|2485900|459
+Vietnam|Da Lat|Asia|N11.941667|E108.438333|305,509|1500
+Vietnam|Hanoi|Asia|N21.0341|E105.8372|5080|25
+Yemen|Sana'a|Asia|N15.3556|E44.2081|1,937,451|2253
+Argentina|Buenos Aires|Americas|S34.6118|W58.4173|908|10
+Bahamas|Nassau|Americas|N25.0661|W77.3390|266100|2
+Bolivia|La Paz|Americas|S19.0421|W65.2559|877,363|3812
+Bolivia|La Paz|Americas|S19.0421|W65.2559|877,363|3812
+Brazil|Brasília|Americas|S15.7801|W47.9292|4,291,577|1079
+Brazil|São Paulo|Americas|S23.55|W46.6333|12,106,920|760
+Brazil|Rio de Janeiro|Americas|S22.90|W43.2045|7,456,682|0
+Brazil|Salvador|Americas|S12.97|W38.5016|2,953,986|8
+Brazil|Fortaleza|Americas|S03.73|W38.5270|2,609,716|21
+Brazil|Belo Horizonte|Americas|S19.91|W43.9345|2,502,557|760
+Brazil|Curitiba|Americas|S25.48|W49.3044|1,908,359|934
+Brazil|Campos do Jordão|Americas|S22.74|W45.5963|290,520|1628
+Canada|Calgary|Americas|N51.05|E114.05|69826|1046
+Canada|Edmonton|Americas|N53.53333|W113.5000|62832|643
+Canada|Montreal|Americas|N45.5017|W73.5673|939112|60
+Canada|Ottawa|Americas|N45.4235|W75.6979|1323783|74
+Canada|Vancouver|Americas|N49.1446|E123.658|2463431|82
+Chile|Santiago|Americas|S33.4691|W70.6420|6310000|521
+Colombia|Bogota|Americas|N4.6473|W74.0962|7,878,783|2619
+Costa Rica|San Jose, Costa Rica|Americas|N9.9402|W84.1002|339581|1146
+Cuba|Havana|Americas|N23.1333|W82.3667|2106146|4
+Dominican Republic|Santo Domingo|Americas|N18.4790|W69.8908|2908607|0
+Ecuador|Quito|Americas|S0.2295|W78.5243|2,671,191|2850
+El Salvador|San Salvador|Americas|N13.7034|W89.2073|2404097|658
+Guatemala|Guatemala City|Americas|N14.6248|W90.5328|2450212|1529
+Haiti|Port-au-Prince|Americas|N18.5392|W72.3288|2618894|98
+Honduras|Tegucigalpa|Americas|N14.0821|W87.2063|2055729|980
+Jamaica|Kingston|Americas|N17.9927|W76.7920|666041|53
+Mexico|Mexico City|Americas|N19.4271|W99.1276|8,918,653|2216
+Mexico|Guadalajara|Americas|N20.6666|W103.35|1,495,189|1566
+Nicaragua|Managua|Americas|N12.1475|W86.2734|1401687|75
+Panama|Panama City|Americas|N8.9943|W79.5188|430299|0
+Paraguay|Asuncion|Americas|S25.3005|W57.6362|2198662|54
+Bolivia|El Alto|Americas|S16.31|W68.10|1185000|4100
+Peru|Cusco|Americas|S13.5250|W71.9722|435,114|3399
+Peru|Lima|Americas|S12.0931|W77.0465|12140000|107
+Peru|Puno|Americas|S13.5036|W70.0126|149,042|3810
+Puerto Rico (US)|San Juan|Americas|N18.4500|W66.0667|3706690|3
+Suriname|Paramaribo|Americas|N5.8232|W55.1679|240924|1
+United States|Albuquerque|Americas|N35°06′39″|W106°36′36″|558,545|1619
+United States|Atlanta|Americas|N33°45′18″|W84°23′24″|463,878|225 to 320
+United States|Boston|Americas|N42.3601|W71.0589|685,000|141
+United States|Chicago|Americas|N41.8369|W87.6847|2,695,598|181
+United States|Denver|Americas|N39.7392|W104.9847|600,158|1610
+United States|New York City|Americas|N40.7077|W74.0035|23876155|10
+United States|Philadelphia|Americas|N40°00′34″|W75°08′00″|7206807|39
+United States|Seattle|Americas|N47.6062|W122.332|4459677|57
+United States|Washington D.C.|Americas|N38.8921|W77.0241|9665892|2
+Uruguay|Montevideo|Americas|S34.8941|W56.0675|1319108|43
+Venezuela|Caracas|Americas|N10.4961|W66.8983|2967626|909
+Algeria|Alger /Algiers|Africa|N36.7755|E3.0597|3415811|0
+Angola|Luanda|Africa|S8.8159|E13.2306|7805000|6
+Benin|Porto-Novo|Africa|N6.4779|E2.6323|267191|38
+Botswana|Gaborone|Africa|S24.6570|E25.9089|421907|1014
+Burkina Faso|Ouagadougou|Africa|N12.3569|W1.5352|2500000|305
+Burundi|Bujumbura|Africa|S3.3818|E29.3622|800000|794
+Cameroon|Yaoundé|Africa|N3.8612|E11.5217|2765600|726
+Central African Republic|Bangui|Africa|N4.3621|E18.5873|734350|369
+Chad|N'Djamena|Africa|N12.1121|E15.0355|1605696|298
+Congo (Republic of)|Brazzaville|Africa|S4.2767|E15.2662|1373382|155
+Congo (Democratic Republic)|Kinshasa|Africa|S4.3369|E15.3271|11855000|240
+Côte d'Ivoire|Yamoussoukro|Africa|N6.8067|W5.2728|281735|217
+Djibouti|Djibouti City|Africa|N11.5806|E43.1425|475322|0
+Egypt|Al Qahirah / Cairo|Africa|N30.0571|E31.2272|19500000|22
+Eritrea|Asmara|Africa|N15.3315|E38.9183|649,000|2363
+Ethiopia|Addis Ababa|Africa|N9.0084|E38.7575|3,384,569|2362
+Gabon|Libreville|Africa|N0.3858|E9.4496|703904|0
+Gambia|Banjul|Africa|N13.4399|W16.6775|413397|0
+Ghana|Accra|Africa|N5.5401|W0.2074|4300000|98
+Guinea|Conakry|Africa|N9.5370|W13.6785|1660973|0
+Guinea-Bissau|Bissau|Africa|N11.8598|W15.5875|492004|0
+Kenya|Nairobi|Africa|S1.2762|E36.7965|3,138,369|1728
+Lesotho|Maseru|Africa|S29.2976|E27.4854|227,880|1673
+Liberia|Monrovia|Africa|N6.3106|W10.8047|1010970|0
+Libya|Tarabulus / Tripoli|Africa|N32.8830|E13.1897|1158000|6
+Madagascar|Antananarivo|Africa|S18.9201|E47.5237|710236|1288
+Malawi|Lilongwe|Africa|S13.9899|E33.7703|1227100|1024
+Mali|Bamako|Africa|N12.6530|W7.9864|2757234|349
+Mauritania|Nouakchott|Africa|N18.0669|W15.9900|958399|6
+Mauritius|Port Louis|Africa|S20.1654|E57.4896|149194|134
+Morocco|Rabat|Africa|N33.9905|W6.8704|2120192|53
+Mozambique|Maputo|Africa|S25.9686|E32.5804|1766823|63
+Namibia|Windhoek|Africa|S22.5749|E17.0805|325,858|1721
+Niger|Niamey|Africa|N13.5164|E2.1157|1243500|207
+Nigeria|Abuja|Africa|N9.0580|E7.4891|6000000|777
+Rwanda|Kigali|Africa|S1.9441|E30.0619|1132686|1567
+São Tomé and Príncipe|Sao Tome (on Sao Tome)|Africa|N0.3360|E6.7311|204307|141
+Senegal|Dakar|Africa|N14.6953|W17.4439|2452656|37
+Sierra Leone|Freetown|Africa|N8.4697|W13.2659|1500234|76
+Somalia|Muqdisho / Mogadishu|Africa|N2.0411|E45.3426|1400000|28
+South Africa|Johannesburg|Africa|S26.2044|E28.0456|25700|1753
+South Africa|Pretoria|Africa|S25.7463|E28.1876|23108|1271
+Sudan|Al Khartum / Khartoum|Africa|N15.6331|E32.5330|639598|377
+Tanzania|Dodoma|Africa|S6.1670|E35.7497|410956|1148
+Togo|Lomé|Africa|N6.1228|E1.2255|839566|63
+Tunisia|Tunis|Africa|N36.8117|E10.1761|2643695|0
+Uganda|Kampala|Africa|N0.3133|E32.5714|1507080|1202
+Zambia|Lusaka|Africa|S15.4145|E28.2809|2467467|1270
+Zimbabwe|Harare|Africa|S17.8227|E31.0496|1619000|1480
+Australia|Canberra|Oceania|S35.2820|E149.1286|0|605
+Australia|Sydney|Oceania|S33.8650|E151.2094|5,029,768|25
+New Zealand|Wellington|Oceania|S41.2865|E174.7762|422700|20
+Papua New Guinea|Port Moresby|Oceania|S9.4656|E147.1969|364145|39
